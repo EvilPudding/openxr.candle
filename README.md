@@ -1,5 +1,5 @@
 # OpenXr Candle plugin
-![Giffo](https://i.imgur.com/ARns3YQ.gif)
+![Giffo](https://i.imgur.com/ixzQo57.gif)
 
 ## Compiling
 Requires cmake to build the SDK
