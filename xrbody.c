@@ -256,8 +256,8 @@ int c_xrbody_pre_draw(c_xrbody_t *self)
 		xr_result(xr->instance, result, "failed to get lever value!");
 	}
 	if (leverValue.isActive && leverValue.currentState != 0) {
-		printf("Lever value %s: changed %d: %f\n", self->path,
-				leverValue.changedSinceLastSync, leverValue.currentState);
+		/* printf("Lever value %s: changed %d: %f\n", self->path, */
+				/* leverValue.changedSinceLastSync, leverValue.currentState); */
 	}
 	return CONTINUE;
 }
